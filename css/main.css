@@ -1,0 +1,42 @@
+*{
+	margin:05px;
+}
+a{
+	width: 250px;
+	text-decoration: none;
+	color: #848484;
+}
+div{
+	width: 200px;
+	height: 250px;
+	background-color: #FAFAFA;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+}
+h5{
+	font-family: 'Bad Script', cursive;
+	padding-top: 20px;
+}
+i{
+	font-size: 45px;
+	background-color: #FAFAFA;
+}
+.icon-paperplane:before {
+  content: "\e903";
+}
+.icon-diamond:before {
+  content: "\e901";
+}
+.icon-heart:before {
+  content: "\e900";
+}
+.icon-cup:before {
+  content: "\e902";
+}
+div:hover{
+	background-color: white;
+}
+.click:hover{
+	color: #CEE3F6;
+}
