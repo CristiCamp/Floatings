@@ -13,6 +13,7 @@ div{
 	float: left;
 	text-align: center;
 	padding-top: 30px;
+	border-style: outset;
 }
 h5{
 	font-family: 'Bad Script', cursive;
@@ -35,8 +36,12 @@ i{
   content: "\e902";
 }
 div:hover{
+	transition-property: height;
+	transition-property: background-color;
+	transition-duration: 4s;
+	height: 280px;
 	background-color: white;
 }
-.click:hover{
+div:hover .click{
 	color: #CEE3F6;
 }
